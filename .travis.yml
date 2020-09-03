@@ -29,7 +29,7 @@ script:
   ./clear_tree_simple >/dev/null 2>&1; done
 env:
   jobs:
-  - build_variant=mt7621 targets="K2P_nano-5.0"
+  - build_variant=mt7621 targets="K2P_nano K2P_nano-5.0 K2P-5.0"
   global:
   - toolchain_url="https://github.com/hanwckf/padavan-toolchain/releases/download/v1.1/mipsel-linux-uclibc.tar.xz"
 git:
