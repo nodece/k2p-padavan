@@ -43,4 +43,3 @@ deploy:
   file: "/opt/images/*.trx"
   on:
     repo: nodece/k2p-padavan
-    tags: true
