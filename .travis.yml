@@ -42,5 +42,5 @@ deploy:
   file_glob: true
   file: "/opt/images/*.trx"
   on:
-    repo: nodece/rt-n56u
+    repo: nodece/k2p-padavan
     tags: true
